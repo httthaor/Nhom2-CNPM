@@ -1,6 +1,6 @@
 # Nhom2-CNPM
 
-##Thành viên
+#Thành viên
 - Dương Khánh Ngọc
 - Nguyễn Thị Thu Tâm
 - Huỳnh Trần Thu Thảo
