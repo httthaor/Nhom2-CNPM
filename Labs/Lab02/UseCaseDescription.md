@@ -2,24 +2,24 @@
 **Actor:** Admin\
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.\
 **Điều kiện tiên quyết:** Admin đã đăng nhập.\
-**Luồng chính:**\
-- Admin nhập thông tin sản phẩm (tên, giá, danh mục, tồn kho).\
+**Luồng chính:**
+Admin nhập thông tin sản phẩm (tên, giá, danh mục, tồn kho).\
 Hệ thống kiểm tra dữ liệu, lưu vào cơ sở dữ liệu.\
 Thông báo thành công.\
 **Luồng phụ:**\
 Dữ liệu không hợp lệ: Hiển thị lỗi, yêu cầu nhập lại.\
-Kết quả: Sản phẩm mới được thêm.\
+Kết quả: Sản phẩm mới được thêm.
 
 ## 2.Use Case: Search Product
 **Actor:** Customer, Admin\
 **Mô tả:** Tìm kiếm sản phẩm theo tên, danh mục, hoặc giá.\
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.\
-**Luồng chính:**\
+**Luồng chính:**
 Actor nhập từ khóa tìm kiếm.\
 Hệ thống trả về danh sách sản phẩm.\
-**Luồng phụ:**\
+**Luồng phụ:**
 Không tìm thấy: Hiển thị “Không có kết quả”.\
-Kết quả: Hiển thị danh sách sản phẩm phù hợp.\
+Kết quả: Hiển thị danh sách sản phẩm phù hợp.
 
 ## 3.Use Case: Register
 **Actor:** Customer\
