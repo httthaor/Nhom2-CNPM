@@ -1,6 +1,6 @@
-# Nhom2-CNPM
+## Nhom2-CNPM
 
-## 🛠️ Software Engineering Project – Mini App Quản Lý Đơn Hàng Cho Shop Online
+# 🛠️ Software Engineering Project – Mini App Quản Lý Đơn Hàng Cho Shop Online
 
 ## 📌 Giới thiệu
 Dự án này được phát triển trong môn Nhập môn Công nghệ Phần mềm.  
