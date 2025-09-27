@@ -321,7 +321,7 @@ ALTER TABLE `Payment` ADD FOREIGN KEY (`orderId`) REFERENCES `Order` (`id`);
 
 **ERD**
 
-![]()
+![](https://github.com/httthaor/Nhom2-CNPM/blob/fc15701e70282cc4bb52be88b5a4e8a48fb18dd1/Labs/Lab10/ERD.jpg)
 
 ## 5. Form Login
 
