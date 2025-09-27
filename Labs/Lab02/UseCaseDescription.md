@@ -79,8 +79,8 @@ Kết quả: Thanh toán hoàn tất.
 **Mô tả:** Xem danh sách sản phẩm và danh mục.  
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.  
 **Luồng chính:**  
-Khách hàng truy cập trang danh mục sản phẩm.  
-Hệ thống hiển thị sản phẩm và danh mục 
-**Luồng phụ:**
-Không có sản phẩm: Hiển thị thông báo trống.
-Kết quả: Hiển thị danh sách sản phẩm.
+Khách hàng truy cập trang danh mục sản phẩm.   
+Hệ thống hiển thị sản phẩm và danh mục    
+**Luồng phụ:**  
+Không có sản phẩm: Hiển thị thông báo trống.  
+Kết quả: Hiển thị danh sách sản phẩm.  
