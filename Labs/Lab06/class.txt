@@ -1,0 +1,119 @@
+@startuml
+' Các package để tổ chức class
+package "Product Management" {
+  class Product {
+    -id: String
+    -name: String
+    -price: double
+    -category: String
+    -stock: int
+    +addProduct()
+    +updateProduct()
+    +deleteProduct()
+    +searchProduct()
+    +displayProducts()
+  }
+
+  class Category {
+    -id: String
+    -name: String
+    +addCategory()
+    +updateCategory()
+    +deleteCategory()
+    +displayCategories()
+  }
+}
+
+package "Customer Management" {
+  class Customer {
+    -id: String
+    -username: String
+    -password: String
+    -email: String
+    -address: String
+    +register()
+    +login()
+    +updateInfo()
+  }
+}
+
+package "Cart Management" {
+  class Cart {
+    -cartId: String
+    -customer: Customer
+    -items: List<CartItem>
+    +addItem()
+    +removeItem()
+    +calculateTotal()
+  }
+
+  class CartItem {
+    -product: Product
+    -quantity: int
+    +updateQuantity()
+  }
+}
+
+package "Order Management" {
+  class Order {
+    -orderId: String
+    -customer: Customer
+    -items: List<OrderItem>
+    -status: String
+    -total: double
+    +createOrder()
+    +updateStatus()
+  }
+
+  class OrderItem {
+    -product: Product
+    -quantity: int
+  }
+}
+
+package "Payment Management" {
+  class Payment {
+    -paymentId: String
+    -order: Order
+    -method: String
+    -amount: double
+    +processCOD()
+    +processEWallet()
+  }
+}
+
+package "User Interface" {
+  class HomePage {
+    +display()
+  }
+
+  class ProductPage {
+    +displayProducts()
+    +filterByCategory()
+  }
+
+  class CartPage {
+    +displayCart()
+    +updateCart()
+  }
+
+  class OrderPage {
+    +displayOrders()
+    +trackOrder()
+  }
+}
+
+' Quan hệ giữa các class
+Product "1" --o "many" CartItem
+Product "1" --o "many" OrderItem
+Customer "1" --o "1" Cart
+Customer "1" --o "many" Order
+Cart "1" --o "many" CartItem
+Order "1" --o "many" OrderItem
+Order "1" --o "1" Payment
+Category "1" --o "many" Product
+
+@enduml
+
+
+
