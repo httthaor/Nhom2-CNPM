@@ -237,6 +237,78 @@ Category "1" --o "many" Product
 ```
 ## 4. ERD + DB
 
+**Database**
+```
+CREATE TABLE `Customer` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `username` varchar(50),
+  `password` varchar(100),
+  `email` varchar(100) UNIQUE,
+  `address` varchar(255)
+);
+
+CREATE TABLE `Category` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `name` varchar(100)
+);
+
+CREATE TABLE `Product` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `name` varchar(100),
+  `price` decimal(10,2),
+  `stock` int,
+  `categoryId` int
+);
+
+CREATE TABLE `Cart` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `customerId` int
+);
+
+CREATE TABLE `CartItem` (
+  `cartId` int,
+  `productId` int,
+  `quantity` int,
+  PRIMARY KEY (`cartId`, `productId`)
+);
+
+CREATE TABLE `Order` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `customerId` int,
+  `status` varchar(50),
+  `total` decimal(10,2)
+);
+
+CREATE TABLE `OrderItem` (
+  `orderId` int,
+  `productId` int,
+  `quantity` int,
+  PRIMARY KEY (`orderId`, `productId`)
+);
+
+CREATE TABLE `Payment` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `orderId` int,
+  `method` varchar(50),
+  `amount` decimal(10,2)
+);
+
+ALTER TABLE `Product` ADD FOREIGN KEY (`categoryId`) REFERENCES `Category` (`id`);
+
+ALTER TABLE `Cart` ADD FOREIGN KEY (`customerId`) REFERENCES `Customer` (`id`);
+
+ALTER TABLE `CartItem` ADD FOREIGN KEY (`cartId`) REFERENCES `Cart` (`id`);
+
+ALTER TABLE `CartItem` ADD FOREIGN KEY (`productId`) REFERENCES `Product` (`id`);
+
+ALTER TABLE `Order` ADD FOREIGN KEY (`customerId`) REFERENCES `Customer` (`id`);
+
+ALTER TABLE `OrderItem` ADD FOREIGN KEY (`orderId`) REFERENCES `Order` (`id`);
+
+ALTER TABLE `OrderItem` ADD FOREIGN KEY (`productId`) REFERENCES `Product` (`id`);
+
+ALTER TABLE `Payment` ADD FOREIGN KEY (`orderId`) REFERENCES `Order` (`id`);
+```
 **Mô tả các entity chính:**
 - Customer (id PK, username, password, email, address)
 - Category (id PK, name)
@@ -248,8 +320,8 @@ Category "1" --o "many" Product
 - Payment (id PK, orderId FK→Order.id, method, amount)
 
 **ERD**
-![]()
 
+![]()
 
 ## 5. Form Login
 
