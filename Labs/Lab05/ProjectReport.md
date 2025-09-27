@@ -145,6 +145,7 @@ Sơ đồ mô tả luồng tương tác chi tiết giữa các đối tượng t
 ![](https://github.com/httthaor/Nhom2-CNPM/blob/b85866ac277e57131529fc31824cfbd7e224a3a3/Labs/Lab04/FormLogin.jpg)
 
 **Code:**
+<pre>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -230,6 +231,7 @@ a:visited{
     </div>
 </body>
 </html>
+</pre>
 
 
 
