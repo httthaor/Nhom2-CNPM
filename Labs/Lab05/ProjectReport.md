@@ -123,7 +123,7 @@ Hệ thống hiển thị sản phẩm và danh mục\
 Không có sản phẩm: Hiển thị thông báo trống.\
 Kết quả: Hiển thị danh sách sản phẩm.
 
-## 4. Sequence Diagram
+## 3. Sequence Diagram
 ![](https://github.com/httthaor/Nhom2-CNPM/blob/b85866ac277e57131529fc31824cfbd7e224a3a3/Labs/Lab03/SequenceDiagram.jpg)
 
 Quy trình nghiệp vụ được chọn để mô tả chi tiết là: **"Cập nhật trạng thái vận chuyển của đơn hàng"**
@@ -138,7 +138,7 @@ Sơ đồ mô tả luồng tương tác chi tiết giữa các đối tượng t
 •	**:Database:** Cơ sở dữ liệu lưu trữ thông tin.\
 •	**:NotificationService:** Dịch vụ chịu trách nhiệm gửi thông báo đến khách hàng.
 
-## 5. Form Login
+## 44. Form Login
 
 **Giao diện đăng nhập:**
 
