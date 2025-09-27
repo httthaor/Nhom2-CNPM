@@ -1,4 +1,3 @@
-Try AI directly in your favorite apps … Use Gemini to generate drafts and refine content, plus get Gemini Pro with access to Google's next-gen AI for ₫489,000 ₫0 for 1 month
 # file: order_management_module.py
 import mysql.connector
 
