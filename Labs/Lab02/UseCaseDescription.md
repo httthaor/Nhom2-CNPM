@@ -14,10 +14,10 @@ Kết quả: Sản phẩm mới được thêm.
 **Actor:** Customer, Admin\
 **Mô tả:** Tìm kiếm sản phẩm theo tên, danh mục, hoặc giá.\
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.\
-**Luồng chính:**
+**Luồng chính:**\
 Actor nhập từ khóa tìm kiếm.\
 Hệ thống trả về danh sách sản phẩm.\
-**Luồng phụ:**
+**Luồng phụ:**\
 Không tìm thấy: Hiển thị “Không có kết quả”.\
 Kết quả: Hiển thị danh sách sản phẩm phù hợp.
 
