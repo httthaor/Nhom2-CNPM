@@ -2,7 +2,7 @@
 **Actor:** Admin\
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.\
 **Điều kiện tiên quyết:** Admin đã đăng nhập.\
-**Luồng chính:**
+**Luồng chính:**\
 Admin nhập thông tin sản phẩm (tên, giá, danh mục, tồn kho).\
 Hệ thống kiểm tra dữ liệu, lưu vào cơ sở dữ liệu.\
 Thông báo thành công.\
