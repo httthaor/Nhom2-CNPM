@@ -32,7 +32,7 @@ Mô hình phát triển: Agile – Scrum
 
 # 🚀 Cài đặt & chạy thử
 <pre>
-```Clone repo:
+`Clone repo:
 git https://github.com/httthaor/Nhom2-CNPM.git
-cd Nhom2-CNPM```
+cd Nhom2-CNPM`
 </pre>
