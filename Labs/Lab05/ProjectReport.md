@@ -40,7 +40,7 @@ canceled).
   Dữ liệu không hợp lệ: Hiển thị lỗi, yêu cầu nhập lại.\
   Kết quả: Sản phẩm mới được thêm.
 
-## 2. Use Case: Search Product
+### 2. Use Case: Search Product
 **Actor:** Customer, Admin\
 **Mô tả:** Tìm kiếm sản phẩm theo tên, danh mục, hoặc giá.\
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.\
