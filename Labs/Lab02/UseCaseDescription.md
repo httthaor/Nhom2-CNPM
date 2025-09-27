@@ -2,14 +2,18 @@
 **Actor:** Admin  
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.  
 **Điều kiện tiên quyết:** Admin đã đăng nhập.  
+
+
 **Luồng chính:**  
 - Admin nhập thông tin sản phẩm (tên, giá, danh mục, tồn kho).    
 - Hệ thống kiểm tra dữ liệu, lưu vào cơ sở dữ liệu.  
 - Thông báo thành công.
-   
+
+
 **Luồng phụ:**  
 - Dữ liệu không hợp lệ: Hiển thị lỗi, yêu cầu nhập lại.  
 - Kết quả: Sản phẩm mới được thêm. 
+
 
 **2. Use Case: Search Product**  
 **Actor:** Customer, Admin  
@@ -18,7 +22,6 @@
 **Luồng chính:**  
 - Actor nhập từ khóa tìm kiếm.  
 - Hệ thống trả về danh sách sản phẩm.
-  
 **Luồng phụ:**  
 - Không tìm thấy: Hiển thị “Không có kết quả”.  
 - Kết quả: Hiển thị danh sách sản phẩm phù hợp.  
@@ -32,7 +35,7 @@
 - Hệ thống kiểm tra, mã hóa password, lưu tài khoản.  
 - Thông báo thành công.
   
-**Luồng phụ:**  
+**Luồng phụ:**  nmmmmm
 - Username/email trùng: Hiển thị lỗi.  
 - Kết quả: Tài khoản được tạo.  
 
