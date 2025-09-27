@@ -146,6 +146,7 @@ Sơ đồ mô tả luồng tương tác chi tiết giữa các đối tượng t
 
 **Code:**
 <pre>
+    ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -231,6 +232,7 @@ a:visited{
     </div>
 </body>
 </html>
+    ```
 </pre>
 
 
