@@ -32,5 +32,5 @@ Mô hình phát triển: Agile – Scrum
 
 # 🚀 Cài đặt & chạy thử
 `Clone repo:
-git https://github.com/httthaor/Nhom2-CNPM.git
+git https://github.com/httthaor/Nhom2-CNPM.git  
 cd Nhom2-CNPM`
