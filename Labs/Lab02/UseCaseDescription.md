@@ -2,7 +2,7 @@
 **Actor:** Admin  
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.  
 **Điều kiện tiên quyết:** Admin đã đăng nhập.  
-**Luồng chính: ** 
+**Luồng chính:** 
 Admin nhập thông tin sản phẩm (tên, giá, danh mục, tồn kho).   
 Hệ thống kiểm tra dữ liệu, lưu vào cơ sở dữ liệu.  
 Thông báo thành công.  
@@ -31,7 +31,7 @@ Thông báo thành công.
 Username/email trùng: Hiển thị lỗi.  
 Kết quả: Tài khoản được tạo.  
 **4. Use Case: Login**  
-**Actor: Customer**  
+**Actor:** Customer  
 **Mô tả:** Khách hàng đăng nhập vào hệ thống.  
 **Điều kiện tiên quyết:** Có tài khoản.  
 **Luồng chính:**  
@@ -42,7 +42,7 @@ Chuyển hướng đến trang chủ.
 Sai thông tin: Hiển thị lỗi.  
 Kết quả: Đăng nhập thành công, nhận token.  
 **5. Use Case: Add Product to Cart**  
-**Actor: Customer**  
+**Actor:** Customer 
 **Mô tả:** Thêm sản phẩm vào giỏ hàng.  
 **Điều kiện tiên quyết:** Đã đăng nhập, sản phẩm tồn tại.  
 **Luồng chính:**  
@@ -53,7 +53,7 @@ Thông báo thành công.
 Hết hàng: Hiển thị lỗi.  
 Kết quả: Sản phẩm được thêm vào giỏ.  
 **6. Use Case: Create Order**  
-**Actor: Customer**  
+**Actor:** Customer  
 **Mô tả:** Tạo đơn hàng từ giỏ hàng.  
 **Điều kiện tiên quyết:** Đã đăng nhập, giỏ hàng không rỗng.  
 **Luồng chính:**  
