@@ -1,0 +1,43 @@
+@startuml
+package "Product Management" {
+  [Product]
+  [Category]
+}
+
+package "Customer Management" {
+  [Customer]
+}
+
+package "Cart Management" {
+  [Cart]
+  [CartItem]
+}
+
+package "Order Management" {
+  [Order]
+  [OrderItem]
+}
+
+package "Payment Management" {
+  [Payment]
+}
+
+package "User Interface" {
+  [HomePage]
+  [ProductPage]
+  [CartPage]
+  [OrderPage]
+}
+
+[Product Management] --> [Cart Management]
+[Product Management] --> [Order Management]
+[Customer Management] --> [Cart Management]
+[Customer Management] --> [Order Management]
+[Order Management] --> [Payment Management]
+[User Interface] --> [Product Management]
+[User Interface] --> [Customer Management]
+[User Interface] --> [Cart Management]
+[User Interface] --> [Order Management]
+
+@enduml
+
