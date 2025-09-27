@@ -20,6 +20,7 @@ Hệ thống trả về danh sách sản phẩm.
 **Luồng phụ:**  
 Không tìm thấy: Hiển thị “Không có kết quả”.  
 Kết quả: Hiển thị danh sách sản phẩm phù hợp.  
+
 **3. Use Case: Register**  
 **Actor: Customer**  
 **Mô tả:** Khách hàng đăng ký tài khoản.  
@@ -31,6 +32,7 @@ Thông báo thành công.
 **Luồng phụ:**  
 Username/email trùng: Hiển thị lỗi.  
 Kết quả: Tài khoản được tạo.  
+
 **4. Use Case: Login**  
 **Actor:** Customer  
 **Mô tả:** Khách hàng đăng nhập vào hệ thống.  
@@ -41,7 +43,8 @@ Hệ thống xác thực, trả JWT token.
 Chuyển hướng đến trang chủ.  
 **Luồng phụ:**  
 Sai thông tin: Hiển thị lỗi.  
-Kết quả: Đăng nhập thành công, nhận token.  
+Kết quả: Đăng nhập thành công, nhận token. 
+
 **5. Use Case: Add Product to Cart**  
 **Actor:** Customer 
 **Mô tả:** Thêm sản phẩm vào giỏ hàng.  
@@ -53,6 +56,7 @@ Thông báo thành công.
 **Luồng phụ:**  
 Hết hàng: Hiển thị lỗi.  
 Kết quả: Sản phẩm được thêm vào giỏ.  
+
 **6. Use Case: Create Order**  
 **Actor:** Customer  
 **Mô tả:** Tạo đơn hàng từ giỏ hàng.  
@@ -64,6 +68,7 @@ Thông báo thành công.
 **Luồng phụ:**  
 Giỏ hàng rỗng: Hiển thị lỗi.  
 Kết quả: Đơn hàng được tạo.  
+
 **7. Use Case: Process Payment**  
 **Actor:** Customer  
 **Mô tả:** Thanh toán đơn hàng bằng COD hoặc ví điện tử.  
@@ -75,6 +80,7 @@ Thông báo thanh toán thành công.
 **Luồng phụ:**  
 Thanh toán thất bại: Hiển thị lỗi.  
 Kết quả: Thanh toán hoàn tất.  
+
 **8. Use Case: View Product Catalog**  
 **Actor:** Customer  
 **Mô tả:** Xem danh sách sản phẩm và danh mục.  
