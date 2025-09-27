@@ -27,7 +27,7 @@ canceled).
 ## 3. Use Case Diagram
 ![](https://github.com/httthaor/Nhom2-CNPM/blob/66d62bbccd0439a7e23efbbfb76474896126f055/Labs/Lab02/UseCaseDiagram.jpg)
 
-**Use Case Description:**\
+**Use Case Description:**
 
 **1. Use Case: Add Product**\
 **Actor:** Admin\
@@ -141,6 +141,7 @@ Sơ đồ mô tả luồng tương tác chi tiết giữa các đối tượng t
 ## 5. Form Login
 
 **Giao diện đăng nhập:**
+
 ![](https://github.com/httthaor/Nhom2-CNPM/blob/b85866ac277e57131529fc31824cfbd7e224a3a3/Labs/Lab04/FormLogin.jpg)
 
 **Code:**
@@ -210,7 +211,6 @@ a:visited{
      width: 100%;
   }
 }
-
     </style>
 </head>
 <body>
@@ -230,7 +230,6 @@ a:visited{
     </div>
 </body>
 </html>
-
 
 
 
