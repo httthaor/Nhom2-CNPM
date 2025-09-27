@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <style>
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0258cf88;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancel {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #e90a0a;
+}
+
+.login-form {
+  padding: 16px;
+}
+
+span.password {
+  float: right;
+  padding-top: 16px;
+}
+
+a:link{
+    color: #000000e4;
+}
+
+a:hover{
+    color:#b11414;
+}
+
+a:visited{
+    color:#0258cf88;
+}
+
+@media screen and (max-width: 300px) {
+  span.password {
+     display: block;
+     float: none;
+  }
+  .cancel {
+     width: 100%;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">LOGIN FORM</h2>
+    <div class="login-form">
+        <form>
+            <label for="username"><b>Username</b></label>
+            <input type="text" name="username" placeholder="Enter your username" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            <br/>
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancel">Cancel</button>
+            <span class="password"><a href="#">Forgot password?</a></span>
+    </form>
+    </div>
+</body>
+</html>
