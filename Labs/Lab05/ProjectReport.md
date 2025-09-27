@@ -28,6 +28,7 @@ canceled).
 ![](https://github.com/httthaor/Nhom2-CNPM/blob/66d62bbccd0439a7e23efbbfb76474896126f055/Labs/Lab02/UseCaseDiagram.jpg)
 
 **Use Case Description:**\
+
 **1. Use Case: Add Product**\
 **Actor:** Admin\
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.\
