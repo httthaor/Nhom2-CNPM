@@ -1,4 +1,4 @@
-## 1.Use Case: Add Product
+## 1. Use Case: Add Product
 **Actor:** Admin\
 **Mô tả:** Admin thêm sản phẩm mới vào hệ thống.\
 **Điều kiện tiên quyết:** Admin đã đăng nhập.\
@@ -10,7 +10,7 @@ Thông báo thành công.\
 Dữ liệu không hợp lệ: Hiển thị lỗi, yêu cầu nhập lại.\
 Kết quả: Sản phẩm mới được thêm.
 
-## 2.Use Case: Search Product
+## 2. Use Case: Search Product
 **Actor:** Customer, Admin\
 **Mô tả:** Tìm kiếm sản phẩm theo tên, danh mục, hoặc giá.\
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.\
@@ -21,7 +21,7 @@ Hệ thống trả về danh sách sản phẩm.\
 Không tìm thấy: Hiển thị “Không có kết quả”.\
 Kết quả: Hiển thị danh sách sản phẩm phù hợp.
 
-## 3.Use Case: Register
+## 3. Use Case: Register
 **Actor:** Customer\
 **Mô tả:** Khách hàng đăng ký tài khoản.\
 **Điều kiện tiên quyết:** Chưa có tài khoản.\
@@ -33,7 +33,7 @@ Thông báo thành công.\
 Username/email trùng: Hiển thị lỗi.\
 Kết quả: Tài khoản được tạo.
 
-## 4.Use Case: Login
+## 4. Use Case: Login
 **Actor:** Customer\
 **Mô tả:** Khách hàng đăng nhập vào hệ thống.\
 **Điều kiện tiên quyết:** Có tài khoản.\
@@ -45,7 +45,7 @@ Chuyển hướng đến trang chủ.\
 Sai thông tin: Hiển thị lỗi.\
 Kết quả: Đăng nhập thành công, nhận token.
 
-## 5.Use Case: Add Product to Cart
+## 5. Use Case: Add Product to Cart
 **Actor:** Customer\
 **Mô tả:** Thêm sản phẩm vào giỏ hàng.\
 **Điều kiện tiên quyết:** Đã đăng nhập, sản phẩm tồn tại.\
@@ -57,7 +57,7 @@ Thông báo thành công.\
 Hết hàng: Hiển thị lỗi.\
 Kết quả: Sản phẩm được thêm vào giỏ.
 
-## 6.Use Case: Create Order
+## 6. Use Case: Create Order
 **Actor:** Customer\
 **Mô tả:** Tạo đơn hàng từ giỏ hàng.\
 **Điều kiện tiên quyết:** Đã đăng nhập, giỏ hàng không rỗng.\
@@ -69,7 +69,7 @@ Thông báo thành công.\
 Giỏ hàng rỗng: Hiển thị lỗi.\
 Kết quả: Đơn hàng được tạo.
 
-## 7.Use Case: Process Payment
+## 7. Use Case: Process Payment
 **Actor:** Customer\
 **Mô tả:** Thanh toán đơn hàng bằng COD hoặc ví điện tử.\
 **Điều kiện tiên quyết:** Có đơn hàng.\
@@ -81,7 +81,7 @@ Thông báo thanh toán thành công.\
 Thanh toán thất bại: Hiển thị lỗi.\
 Kết quả: Thanh toán hoàn tất.
 
-## 8.Use Case: View Product Catalog
+## 8. Use Case: View Product Catalog
 **Actor:** Customer\
 **Mô tả:** Xem danh sách sản phẩm và danh mục.\
 **Điều kiện tiên quyết:** Có sản phẩm trong hệ thống.\
