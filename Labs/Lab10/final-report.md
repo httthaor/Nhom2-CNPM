@@ -235,7 +235,21 @@ Category "1" --o "many" Product
 
 @enduml
 ```
-## 4.
+## 4. ERD + DB
+
+**Mô tả các entity chính:**
+- Customer (id PK, username, password, email, address)
+- Category (id PK, name)
+- Product (id PK, name, price, stock, categoryId FK→Category.id)
+- Cart (id PK, customerId FK→Customer.id)
+- CartItem (cartId FK→Cart.id, productId FK→Product.id, quantity, PK(cartId, productId))
+- Order (id PK, customerId FK→Customer.id, status, total)
+- OrderItem (orderId FK→Order.id, productId FK→Product.id, quantity, PK(orderId, productId))
+- Payment (id PK, orderId FK→Order.id, method, amount)
+
+**ERD**
+![]()
+
 
 ## 5. Form Login
 
